@@ -1,0 +1,6 @@
+Dockerfile
+.gitignore
+.dockerignore
+app-dep.yml
+app-serv.yml
+node_modules
