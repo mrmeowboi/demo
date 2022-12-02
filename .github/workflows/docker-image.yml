@@ -15,4 +15,4 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Build the Docker image
-      run: sudo apt-get update && sudo apt install nodejs -y && cd ./app && npm install && npm run build && docker login -u mrmeowboi -p Nandha@25 && docker build . --file ./app/Dockerfile --tag mrmeowboi/demonode && docker push mrmeowboi/demonode
+      run: sudo apt-get update && sudo apt install nodejs -y && cd ./app && npm install && npm run build && docker login -u mrmeowboi -p Nandha@25 && docker build . --file ./Dockerfile --tag mrmeowboi/demonode && docker push mrmeowboi/demonode
